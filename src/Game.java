@@ -37,6 +37,22 @@ public class Game {
         return gameDeck;
     }
 
+    public Stage getStage() {
+        return stage;
+    }
+
+    public int getSmallBlind() {
+        return smallBlind;
+    }
+
+    public int getPot() {
+        return pot;
+    }
+
+    public int getCurrentPlayer() {
+        return currentPlayer;
+    }
+
     // SETTERS
 
     // --- METHODS ---

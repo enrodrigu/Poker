@@ -1,18 +1,31 @@
-## Getting Started
+# POKER
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Description
 
-## Folder Structure
+A simple poker game made fully made in Java
 
-The workspace contains two folders by default, where:
+## Project managament
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Done
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Task|
+--
+Creating main classes
+Set up different game stages
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Doing
 
-## Dependency Management
+Task|
+--
+Set up the game mechanics
+Create all methods
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### To Do
+
+Priority | Task
+--|--
+○•••• | Implement a gui
+○•••• | Implement an AI
+○○○•• | Make it playable
+○○○○○ | Make it fully working
+○○○○• | Make unit tests
