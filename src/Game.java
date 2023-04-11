@@ -88,4 +88,10 @@ public class Game {
         gameCards[4] = gameDeck.draw();
         stage = Stage.RIVER;
     }
+
+    public void showGameCards() {
+        for (Card card : gameCards) {
+            System.out.print(card+";");
+        }
+    }
 }

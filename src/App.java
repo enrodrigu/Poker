@@ -8,13 +8,12 @@ public class App {
         }
         System.out.println("fold");
         game.flop();
-        for (Card card : game.getGameCards()) {
-            System.out.print(card+";");
-        }
+        game.showGameCards();
         System.out.println("\nturn");
         game.turn();
-        for (Card card : game.getGameCards()) {
-            System.out.print(card+";");
-        }
+        game.showGameCards();
+        System.out.println("\nriver");
+        game.river();
+        game.showGameCards();
     }
 }
