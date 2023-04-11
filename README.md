@@ -8,17 +8,17 @@ A simple poker game made fully made in Java
 
 ### Done
 
-Task|
---
-Creating main classes
-Set up different game stages
+Task|--
+--|--
+Creating main classes|--
+Set up different game stages|--
 
 ### Doing
 
-Task|
---
-Set up the game mechanics
-Create all methods
+Task|--
+--|--
+Set up the game mechanics|--
+Create all methods|--
 
 ### To Do
 
