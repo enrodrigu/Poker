@@ -29,4 +29,9 @@ public class Player {
         folded = true;
     }
 
+    @Override
+    public String toString() {
+        return "Name : "+name+"\nChips : "+chips+"\nBet : "+bet+"\nFolded : "+folded+"\nHand : "+hand[0]+" "+hand[1]+"\n";
+    }
+
 }
