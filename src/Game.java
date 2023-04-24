@@ -3,6 +3,7 @@ public class Game {
     private Player[] players;
     private int numPlayers;
     private int currentPlayer;
+    private int currentBet;
     private int pot;
     enum Stage {PRE_FLOP, FLOP, TURN, RIVER};
     private Stage stage;
@@ -53,7 +54,15 @@ public class Game {
         return currentPlayer;
     }
 
+    public int getCurrentBet() {
+        return currentBet;
+    }
+
     // SETTERS
+
+    public void setCurrentBet(int currentBet) {
+        this.currentBet = currentBet;
+    }
 
     // --- METHODS ---
     public void burn() {
@@ -93,5 +102,9 @@ public class Game {
         for (Card card : gameCards) {
             System.out.print(card+";");
         }
+    }
+
+    public void playturn(){
+
     }
 }
